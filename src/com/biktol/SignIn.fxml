@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="480.0" style="-fx-background-color: #151928;" styleClass="blue-panel" stylesheets="@Styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label text="Login" textFill="#2196f3">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="20.0" />
+         </VBox.margin>
+      </Label>
+      <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0" styleClass="tf-box">
+         <children>
+            <TextField promptText="Email" style="-fx-background-color: transparent; -fx-border-color: #DEDEE4; -fx-border-width: 0px 0px 1px 0px;" styleClass="tf_box" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets left="15.0" top="15.0" />
+               </HBox.margin></TextField>
+            <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/icons8-añadir-libro-32.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="245.0" prefHeight="40.0" prefWidth="200.0" styleClass="tf-box">
+         <children>
+            <TextField promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #DEDEE4; -fx-border-width: 0px 0px 1px 0px;" styleClass="tf_box" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets bottom="15.0" left="15.0" top="15.0" />
+               </HBox.margin>
+            </TextField>
+            <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/icons8-añadir-libro-32.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+      <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="455.0" style="-fx-background-color: #2196f3; -fx-background-radius: 5px; -fx-text-fill: white;" text="Sign In" VBox.vgrow="ALWAYS">
+         <VBox.margin>
+            <Insets left="15.0" />
+         </VBox.margin>
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</VBox>
