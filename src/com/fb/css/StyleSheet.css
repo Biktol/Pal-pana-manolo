@@ -1,0 +1,33 @@
+/* 
+    Created on : 29/07/2020, 04:11:04 PM
+    Author     : Biktol
+*/
+
+.white-bg{
+    -fx-background-color: white;
+}
+.blue-bg{
+    -fx-background-color: #3F51B5;
+}
+.get-started-btn{
+    -fx-background-color: transparent;
+    -fx-background-radius: 3px;
+    -fx-border-color: white;
+    -fx-border-radius: 3px;
+    -fx-border-width: 3px;
+    -fx-border-style: solid;
+}
+.text-field{
+    -fx-backgroud-color:white;
+}  
+.login-btn{
+    -fx-background-color:#3F51B5;
+    -fx-text-fill: white;
+    
+}
+.date-picker{
+    -fx-background-color: transparent;
+}
+.register-btn{
+    -fx-background-color:#159F5C;
+}
